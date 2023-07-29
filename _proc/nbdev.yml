@@ -1,0 +1,9 @@
+project:
+  output-dir: _docs
+
+website:
+  title: "poe-build-embedder"
+  site-url: "https://DataAndDeadlifts.github.io/poe-build-embedder"
+  description: "Analyze POE builds with ML and embeddings"
+  repo-branch: main
+  repo-url: "https://github.com/DataAndDeadlifts/poe-build-embedder"
