@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "get.characters.html",
+    "href": "get.characters.html",
+    "title": "Get character data",
+    "section": "",
+    "text": "source\n\nRequester\n\n Requester ()\n\nInitialize self. See help(type(self)) for accurate signature.\n\nexample_account = \"TheuberClips\"\nexample_character = \"UberRankOneOrRiot\"\n\nrequester = Requester()\n\nexample_character_skill_tree = requester.get_character_tree(example_account, example_character)\nexample_character_items = requester.get_character_items(example_account, example_character)\nexample_character_skill_tree.keys(), example_character_items.keys()\n\n(dict_keys(['hashes', 'hashes_ex', 'mastery_effects', 'items', 'jewel_data']),\n dict_keys(['items', 'character']))"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "poe-build-embedder",
+    "section": "",
+    "text": "This file will become your README and also the index of your documentation."
+  },
+  {
+    "objectID": "index.html#install",
+    "href": "index.html#install",
+    "title": "poe-build-embedder",
+    "section": "Install",
+    "text": "Install\npip install poe_build_embedder"
+  },
+  {
+    "objectID": "index.html#how-to-use",
+    "href": "index.html#how-to-use",
+    "title": "poe-build-embedder",
+    "section": "How to use",
+    "text": "How to use\nFill me in please! Don’t forget code examples:\n\n1+1\n\n2"
+  }
+]
